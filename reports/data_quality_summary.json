@@ -1,0 +1,441 @@
+{
+  "records_raw": 28587,
+  "records_english": 16338,
+  "missing_subject": 2607,
+  "missing_body": 0,
+  "empty_subject_after_strip": 2607,
+  "empty_body_after_strip": 0,
+  "empty_text_records": 0,
+  "dropped_empty_text": 0,
+  "records_final": 16338,
+  "n_classes": 10,
+  "class_distribution": [
+    {
+      "queue": "Technical Support",
+      "tickets": 4737,
+      "percent": 28.99
+    },
+    {
+      "queue": "Product Support",
+      "tickets": 3073,
+      "percent": 18.81
+    },
+    {
+      "queue": "Customer Service",
+      "tickets": 2410,
+      "percent": 14.75
+    },
+    {
+      "queue": "IT Support",
+      "tickets": 1942,
+      "percent": 11.89
+    },
+    {
+      "queue": "Billing and Payments",
+      "tickets": 1595,
+      "percent": 9.76
+    },
+    {
+      "queue": "Returns and Exchanges",
+      "tickets": 820,
+      "percent": 5.02
+    },
+    {
+      "queue": "Service Outages and Maintenance",
+      "tickets": 664,
+      "percent": 4.06
+    },
+    {
+      "queue": "Sales and Pre-Sales",
+      "tickets": 513,
+      "percent": 3.14
+    },
+    {
+      "queue": "Human Resources",
+      "tickets": 348,
+      "percent": 2.13
+    },
+    {
+      "queue": "General Inquiry",
+      "tickets": 236,
+      "percent": 1.44
+    }
+  ],
+  "largest_queue": {
+    "name": "Technical Support",
+    "tickets": 4737
+  },
+  "smallest_queue": {
+    "name": "General Inquiry",
+    "tickets": 236
+  },
+  "imbalance_ratio": 20.1,
+  "text_length_stats": {
+    "count": 16338.0,
+    "mean": 405.4,
+    "std": 179.7,
+    "min": 18.0,
+    "25%": 254.2,
+    "50%": 416.0,
+    "75%": 565.0,
+    "max": 1189.0
+  },
+  "word_count_stats": {
+    "count": 16338.0,
+    "mean": 58.6,
+    "std": 26.9,
+    "min": 2.0,
+    "25%": 36.0,
+    "50%": 60.0,
+    "75%": 82.0,
+    "max": 172.0
+  },
+  "top_words_overall": {
+    "data": 13928,
+    "support": 8562,
+    "issue": 7910,
+    "assistance": 6675,
+    "security": 6025,
+    "software": 5931,
+    "customer": 5854,
+    "information": 5454,
+    "provide": 5341,
+    "appreciate": 5224,
+    "analytics": 5064,
+    "problem": 5047,
+    "digital": 4722,
+    "medical": 4710,
+    "integration": 4691
+  },
+  "top_terms_per_queue": {
+    "Technical Support": "data, issue, software, problem, security, assistance, issues, support, analytics, medical",
+    "Product Support": "data, issue, security, analytics, assistance, digital, support, integration, investment, software",
+    "Customer Service": "data, support, information, analytics, investment, strategies, integration, provide, assistance, digital",
+    "IT Support": "data, software, issue, problem, tools, assistance, support, analytics, security, digital",
+    "Billing and Payments": "billing, payment, information, provide, details, data, support, services, appreciate, assistance",
+    "Returns and Exchanges": "data, investment, security, software, information, analytics, medical, support, digital, brand",
+    "Service Outages and Maintenance": "service, outage, outages, impacting, disruptions, network, disruption, data, server, issue",
+    "Sales and Pre-Sales": "data, integration, information, saas, brand, strategies, provide, medical, support, digital",
+    "Human Resources": "data, security, software, employee, access, issue, information, support, investment, assistance",
+    "General Inquiry": "data, engagement, investment, enhance, digital, strategies, analytics, marketing, security, integration"
+  },
+  "top_body_openers_percent": {
+    "Customer Support, I am": 3.7,
+    "Dear Customer Support, I": 3.6,
+    "Dear Customer Support Team,\\n\\nI": 2.1,
+    "Hello Customer Support, I": 2.0,
+    "Is it possible to": 1.6,
+    "Dear Customer Support,\\n\\nI am": 0.9,
+    "Customer Support, we are": 0.8,
+    "I am reaching out": 0.8,
+    "Dear Customer Support, we": 0.7,
+    "An unauthorized access attempt": 0.7
+  },
+  "exact_duplicates": [
+    {
+      "check": "raw text (subject+body)",
+      "extra_copies": 0,
+      "tickets_involved": 0,
+      "duplicate_groups": 0
+    },
+    {
+      "check": "normalised text",
+      "extra_copies": 1,
+      "tickets_involved": 2,
+      "duplicate_groups": 1
+    },
+    {
+      "check": "normalised body only",
+      "extra_copies": 19,
+      "tickets_involved": 38,
+      "duplicate_groups": 19
+    }
+  ],
+  "exact_duplicate_conflicting_label_groups": 0,
+  "near_duplicate_sweep": [
+    {
+      "threshold": 0.7,
+      "similar_pairs": 5192,
+      "pairs_with_different_queue": 15,
+      "tickets_in_groups": 7087,
+      "groups_size>1": 2910,
+      "largest_group": 7,
+      "groups_with_label_conflict": 11,
+      "% pairs different queue": 0.3
+    },
+    {
+      "threshold": 0.8,
+      "similar_pairs": 2405,
+      "pairs_with_different_queue": 4,
+      "tickets_in_groups": 3689,
+      "groups_size>1": 1590,
+      "largest_group": 5,
+      "groups_with_label_conflict": 3,
+      "% pairs different queue": 0.2
+    },
+    {
+      "threshold": 0.85,
+      "similar_pairs": 1279,
+      "pairs_with_different_queue": 2,
+      "tickets_in_groups": 2099,
+      "groups_size>1": 938,
+      "largest_group": 5,
+      "groups_with_label_conflict": 1,
+      "% pairs different queue": 0.2
+    },
+    {
+      "threshold": 0.9,
+      "similar_pairs": 533,
+      "pairs_with_different_queue": 2,
+      "tickets_in_groups": 917,
+      "groups_size>1": 424,
+      "largest_group": 5,
+      "groups_with_label_conflict": 1,
+      "% pairs different queue": 0.4
+    },
+    {
+      "threshold": 0.95,
+      "similar_pairs": 147,
+      "pairs_with_different_queue": 2,
+      "tickets_in_groups": 265,
+      "groups_size>1": 127,
+      "largest_group": 4,
+      "groups_with_label_conflict": 1,
+      "% pairs different queue": 1.4
+    },
+    {
+      "threshold": 0.99,
+      "similar_pairs": 43,
+      "pairs_with_different_queue": 2,
+      "tickets_in_groups": 83,
+      "groups_size>1": 41,
+      "largest_group": 3,
+      "groups_with_label_conflict": 1,
+      "% pairs different queue": 4.7
+    }
+  ],
+  "duplicate_groups": {
+    "threshold": 0.7,
+    "threshold_status": "CONFIRMED",
+    "similarity_method": "cosine similarity on TF-IDF (unigram+bigram, English stop words removed, max_df=0.5, min_df=2, sublinear tf)",
+    "total_groups": 12161,
+    "groups_with_more_than_one_ticket": 2910,
+    "tickets_in_multi_ticket_groups": 7087,
+    "near_duplicate_tickets_beyond_first": 4177,
+    "largest_group_size": 7,
+    "groups_with_label_conflict": 11,
+    "tickets_in_label_conflict_groups": 33
+  },
+  "split_actual": {
+    "train": {
+      "samples": 11498,
+      "percent": 70.38
+    },
+    "val": {
+      "samples": 2420,
+      "percent": 14.81
+    },
+    "test": {
+      "samples": 2420,
+      "percent": 14.81
+    }
+  },
+  "split_class_distribution": [
+    {
+      "queue": "Technical Support",
+      "train_n": 3377,
+      "val_n": 667,
+      "test_n": 693,
+      "train_%": 29.37,
+      "val_%": 27.56,
+      "test_%": 28.64,
+      "overall_%": 28.99
+    },
+    {
+      "queue": "Product Support",
+      "train_n": 2126,
+      "val_n": 466,
+      "test_n": 481,
+      "train_%": 18.49,
+      "val_%": 19.26,
+      "test_%": 19.88,
+      "overall_%": 18.81
+    },
+    {
+      "queue": "Customer Service",
+      "train_n": 1710,
+      "val_n": 353,
+      "test_n": 347,
+      "train_%": 14.87,
+      "val_%": 14.59,
+      "test_%": 14.34,
+      "overall_%": 14.75
+    },
+    {
+      "queue": "IT Support",
+      "train_n": 1373,
+      "val_n": 273,
+      "test_n": 296,
+      "train_%": 11.94,
+      "val_%": 11.28,
+      "test_%": 12.23,
+      "overall_%": 11.89
+    },
+    {
+      "queue": "Billing and Payments",
+      "train_n": 1125,
+      "val_n": 249,
+      "test_n": 221,
+      "train_%": 9.78,
+      "val_%": 10.29,
+      "test_%": 9.13,
+      "overall_%": 9.76
+    },
+    {
+      "queue": "Returns and Exchanges",
+      "train_n": 569,
+      "val_n": 128,
+      "test_n": 123,
+      "train_%": 4.95,
+      "val_%": 5.29,
+      "test_%": 5.08,
+      "overall_%": 5.02
+    },
+    {
+      "queue": "Service Outages and Maintenance",
+      "train_n": 454,
+      "val_n": 103,
+      "test_n": 107,
+      "train_%": 3.95,
+      "val_%": 4.26,
+      "test_%": 4.42,
+      "overall_%": 4.06
+    },
+    {
+      "queue": "Sales and Pre-Sales",
+      "train_n": 347,
+      "val_n": 86,
+      "test_n": 80,
+      "train_%": 3.02,
+      "val_%": 3.55,
+      "test_%": 3.31,
+      "overall_%": 3.14
+    },
+    {
+      "queue": "Human Resources",
+      "train_n": 256,
+      "val_n": 55,
+      "test_n": 37,
+      "train_%": 2.23,
+      "val_%": 2.27,
+      "test_%": 1.53,
+      "overall_%": 2.13
+    },
+    {
+      "queue": "General Inquiry",
+      "train_n": 161,
+      "val_n": 40,
+      "test_n": 35,
+      "train_%": 1.4,
+      "val_%": 1.65,
+      "test_%": 1.45,
+      "overall_%": 1.44
+    }
+  ],
+  "split_max_class_share_deviation_pp": 1.43,
+  "leakage_check": {
+    "groups_crossing_splits": 0,
+    "identical_texts_crossing_splits": 0,
+    "cross_split_pairs_by_threshold": [
+      {
+        "threshold": 0.7,
+        "similar_pairs": 5192,
+        "pairs_crossing_splits": 0,
+        "note": "must be 0"
+      },
+      {
+        "threshold": 0.8,
+        "similar_pairs": 2405,
+        "pairs_crossing_splits": 0,
+        "note": "must be 0"
+      },
+      {
+        "threshold": 0.85,
+        "similar_pairs": 1279,
+        "pairs_crossing_splits": 0,
+        "note": "must be 0"
+      },
+      {
+        "threshold": 0.9,
+        "similar_pairs": 533,
+        "pairs_crossing_splits": 0,
+        "note": "must be 0"
+      },
+      {
+        "threshold": 0.95,
+        "similar_pairs": 147,
+        "pairs_crossing_splits": 0,
+        "note": "must be 0"
+      },
+      {
+        "threshold": 0.99,
+        "similar_pairs": 43,
+        "pairs_crossing_splits": 0,
+        "note": "must be 0"
+      }
+    ]
+  },
+  "plain_vs_group_split_leakage": [
+    {
+      "threshold": 0.7,
+      "plain split: % test with near-dup in train": 32.56,
+      "plain split: % val with near-dup in train": 33.33,
+      "group-aware: % test with near-dup in train": 0.0,
+      "group-aware: % val with near-dup in train": 0.0
+    },
+    {
+      "threshold": 0.8,
+      "plain split: % test with near-dup in train": 16.24,
+      "plain split: % val with near-dup in train": 17.58,
+      "group-aware: % test with near-dup in train": 0.0,
+      "group-aware: % val with near-dup in train": 0.0
+    },
+    {
+      "threshold": 0.9,
+      "plain split: % test with near-dup in train": 3.75,
+      "plain split: % val with near-dup in train": 4.41,
+      "group-aware: % test with near-dup in train": 0.0,
+      "group-aware: % val with near-dup in train": 0.0
+    },
+    {
+      "threshold": 0.95,
+      "plain split: % test with near-dup in train": 1.06,
+      "plain split: % val with near-dup in train": 1.18,
+      "group-aware: % test with near-dup in train": 0.0,
+      "group-aware: % val with near-dup in train": 0.0
+    }
+  ],
+  "columns_used": {
+    "input": [
+      "subject",
+      "body"
+    ],
+    "target": "queue",
+    "excluded": [
+      "answer",
+      "type",
+      "priority",
+      "tag_1..tag_8",
+      "version",
+      "language"
+    ]
+  },
+  "decisions": [
+    "Kept English tickets only (16,338 of 28,587).",
+    "Tickets with empty subject are kept if the body is usable; tickets with no text at all are removed (0 removed).",
+    "No ticket was deleted for being a duplicate; duplicates are grouped and kept together in one split.",
+    "Groups with conflicting queues are flagged (has_label_conflict) and reported, not removed.",
+    "Excluded answer/type/priority/tags/version to avoid leakage; priority is not risk.",
+    "Split: StratifiedGroupKFold(20 folds, random_state=42) -> 14/3/3 folds; actual ratios reported below."
+  ]
+}
