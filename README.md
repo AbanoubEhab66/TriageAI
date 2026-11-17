@@ -1,2 +1,2 @@
-# Intelligent-Customer-Support-Ticket-Classifier
-NLP-based system for automatic customer support ticket classification
+# TriageAI
+Confidence-Aware Support Ticket Classification with Human-in-the-Loop Routing
