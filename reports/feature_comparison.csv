@@ -1,0 +1,6 @@
+config,val_macro_f1,weighted_f1,accuracy,cv_macro_f1_mean,cv_macro_f1_std,sec
+tfidf_uni,0.3896,0.4025,0.3979,0.3541,0.0046,8
+tfidf_uni_bi,0.4823,0.5007,0.5025,0.4285,0.0039,23
+tfidf_uni_bi_stopwords,0.4953,0.5169,0.519,0.4344,0.0046,19
+tfidf_uni_stopwords,0.382,0.3952,0.3901,0.3506,0.0064,7
+bow_uni_bi,0.4316,0.4707,0.4731,0.3995,0.0105,25
