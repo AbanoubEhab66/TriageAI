@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# MLflow (local tracking, each person has their own)
+mlflow.db
+mlruns/
+mlartifacts/
