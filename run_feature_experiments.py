@@ -84,10 +84,7 @@ def diagnose_best(name, yva, pred, labels, reports_dir):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument(
-    "--data-dir",
-    default=r"E:\Track\projects\project DPEI TriageAI\phase1_outputs"
-)
+    ap.add_argument("--data-dir", default="data")
     ap.add_argument("--reports-dir", default="reports")
     args = ap.parse_args()
     data_dir, reports_dir = Path(args.data_dir), Path(args.reports_dir)
