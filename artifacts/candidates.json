@@ -1,0 +1,81 @@
+{
+  "labels": [
+    "Billing and Payments",
+    "Customer Service",
+    "General Inquiry",
+    "Human Resources",
+    "IT Support",
+    "Product Support",
+    "Returns and Exchanges",
+    "Sales and Pre-Sales",
+    "Service Outages and Maintenance",
+    "Technical Support"
+  ],
+  "note": "Uncalibrated pipelines fitted on train only. Calibrate on train with group-aware CV in Phase 4.",
+  "candidates": [
+    {
+      "rank_val": 1,
+      "run": "LogReg_balanced__uni_bi__C100",
+      "family": "LogReg_balanced",
+      "features": "uni_bi",
+      "params": {
+        "C": 100
+      },
+      "val_macro_f1": 0.5023,
+      "cv_macro_f1_mean": 0.4424,
+      "top2_accuracy": 0.7008,
+      "probability_support": "predict_proba",
+      "calibration_note": "class_weight shifts probabilities toward small classes; check ECE, calibrate",
+      "file": "artifacts\\candidates\\LogReg_balanced__uni_bi__C100.joblib",
+      "calibrated": false
+    },
+    {
+      "rank_val": 2,
+      "run": "LinearSVC__uni_bi__C30.0",
+      "family": "LinearSVC",
+      "features": "uni_bi",
+      "params": {
+        "C": 30.0
+      },
+      "val_macro_f1": 0.4983,
+      "cv_macro_f1_mean": 0.4436,
+      "top2_accuracy": 0.6897,
+      "probability_support": "decision_function only",
+      "calibration_note": "NO predict_proba: must go through CalibratedClassifierCV",
+      "file": "artifacts\\candidates\\LinearSVC__uni_bi__C30.0.joblib",
+      "calibrated": false
+    },
+    {
+      "rank_val": 3,
+      "run": "LogReg__uni_bi__C1000",
+      "family": "LogReg",
+      "features": "uni_bi",
+      "params": {
+        "C": 1000
+      },
+      "val_macro_f1": 0.4583,
+      "cv_macro_f1_mean": 0.4253,
+      "top2_accuracy": 0.6893,
+      "probability_support": "predict_proba",
+      "calibration_note": "usually the best-calibrated raw model; still check ECE",
+      "file": "artifacts\\candidates\\LogReg__uni_bi__C1000.joblib",
+      "calibrated": false
+    },
+    {
+      "rank_val": 4,
+      "run": "NaiveBayes__uni_bi__alpha0.003",
+      "family": "NaiveBayes",
+      "features": "uni_bi",
+      "params": {
+        "alpha": 0.003
+      },
+      "val_macro_f1": 0.4301,
+      "cv_macro_f1_mean": 0.3782,
+      "top2_accuracy": 0.6884,
+      "probability_support": "predict_proba",
+      "calibration_note": "has probabilities but they are usually over-confident; check ECE, calibrate",
+      "file": "artifacts\\candidates\\NaiveBayes__uni_bi__alpha0.003.joblib",
+      "calibrated": false
+    }
+  ]
+}

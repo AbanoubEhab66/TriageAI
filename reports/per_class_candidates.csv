@@ -1,0 +1,41 @@
+run,queue,precision,recall,f1,support
+LogReg_balanced__uni_bi__C100,Billing and Payments,0.7815,0.747,0.7639,249
+LogReg_balanced__uni_bi__C100,Customer Service,0.4364,0.4958,0.4642,353
+LogReg_balanced__uni_bi__C100,General Inquiry,0.6364,0.35,0.4516,40
+LogReg_balanced__uni_bi__C100,Human Resources,0.4828,0.2545,0.3333,55
+LogReg_balanced__uni_bi__C100,IT Support,0.4569,0.4469,0.4519,273
+LogReg_balanced__uni_bi__C100,Product Support,0.4876,0.4635,0.4752,466
+LogReg_balanced__uni_bi__C100,Returns and Exchanges,0.5632,0.3828,0.4558,128
+LogReg_balanced__uni_bi__C100,Sales and Pre-Sales,0.4615,0.2093,0.288,86
+LogReg_balanced__uni_bi__C100,Service Outages and Maintenance,0.8276,0.699,0.7579,103
+LogReg_balanced__uni_bi__C100,Technical Support,0.5304,0.6417,0.5807,667
+LinearSVC__uni_bi__C30.0,Billing and Payments,0.7819,0.7631,0.7724,249
+LinearSVC__uni_bi__C30.0,Customer Service,0.4373,0.4844,0.4597,353
+LinearSVC__uni_bi__C30.0,General Inquiry,0.65,0.325,0.4333,40
+LinearSVC__uni_bi__C30.0,Human Resources,0.5185,0.2545,0.3415,55
+LinearSVC__uni_bi__C30.0,IT Support,0.457,0.4286,0.4423,273
+LinearSVC__uni_bi__C30.0,Product Support,0.488,0.4785,0.4832,466
+LinearSVC__uni_bi__C30.0,Returns and Exchanges,0.5802,0.3672,0.4498,128
+LinearSVC__uni_bi__C30.0,Sales and Pre-Sales,0.5806,0.2093,0.3077,86
+LinearSVC__uni_bi__C30.0,Service Outages and Maintenance,0.8272,0.6505,0.7283,103
+LinearSVC__uni_bi__C30.0,Technical Support,0.509,0.6357,0.5653,667
+LogReg__uni_bi__C1000,Billing and Payments,0.7266,0.747,0.7366,249
+LogReg__uni_bi__C1000,Customer Service,0.4165,0.4731,0.443,353
+LogReg__uni_bi__C1000,General Inquiry,0.7,0.175,0.28,40
+LogReg__uni_bi__C1000,Human Resources,0.5,0.2,0.2857,55
+LogReg__uni_bi__C1000,IT Support,0.4741,0.4029,0.4356,273
+LogReg__uni_bi__C1000,Product Support,0.4749,0.4464,0.4602,466
+LogReg__uni_bi__C1000,Returns and Exchanges,0.5385,0.3281,0.4078,128
+LogReg__uni_bi__C1000,Sales and Pre-Sales,0.4828,0.1628,0.2435,86
+LogReg__uni_bi__C1000,Service Outages and Maintenance,0.8375,0.6505,0.7322,103
+LogReg__uni_bi__C1000,Technical Support,0.492,0.6447,0.5581,667
+NaiveBayes__uni_bi__alpha0.003,Billing and Payments,0.841,0.6586,0.7387,249
+NaiveBayes__uni_bi__alpha0.003,Customer Service,0.3575,0.4476,0.3975,353
+NaiveBayes__uni_bi__alpha0.003,General Inquiry,0.4,0.1,0.16,40
+NaiveBayes__uni_bi__alpha0.003,Human Resources,0.7333,0.2,0.3143,55
+NaiveBayes__uni_bi__alpha0.003,IT Support,0.4744,0.2711,0.345,273
+NaiveBayes__uni_bi__alpha0.003,Product Support,0.4936,0.4163,0.4517,466
+NaiveBayes__uni_bi__alpha0.003,Returns and Exchanges,0.6207,0.2812,0.3871,128
+NaiveBayes__uni_bi__alpha0.003,Sales and Pre-Sales,0.5652,0.1512,0.2385,86
+NaiveBayes__uni_bi__alpha0.003,Service Outages and Maintenance,0.9206,0.5631,0.6988,103
+NaiveBayes__uni_bi__alpha0.003,Technical Support,0.4629,0.7391,0.5693,667
