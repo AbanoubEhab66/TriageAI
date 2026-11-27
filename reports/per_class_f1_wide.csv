@@ -1,0 +1,11 @@
+queue,LinearSVC__uni_bi__C30.0,LogReg__uni_bi__C1000,LogReg_balanced__uni_bi__C100,NaiveBayes__uni_bi__alpha0.003
+Billing and Payments,0.7724,0.7366,0.7639,0.7387
+Customer Service,0.4597,0.443,0.4642,0.3975
+General Inquiry,0.4333,0.28,0.4516,0.16
+Human Resources,0.3415,0.2857,0.3333,0.3143
+IT Support,0.4423,0.4356,0.4519,0.345
+Product Support,0.4832,0.4602,0.4752,0.4517
+Returns and Exchanges,0.4498,0.4078,0.4558,0.3871
+Sales and Pre-Sales,0.3077,0.2435,0.288,0.2385
+Service Outages and Maintenance,0.7283,0.7322,0.7579,0.6988
+Technical Support,0.5653,0.5581,0.5807,0.5693

@@ -1,0 +1,11 @@
+true_queue,predicted_as,tickets
+Product Support,Technical Support,123
+IT Support,Technical Support,86
+Technical Support,Product Support,81
+Customer Service,Technical Support,76
+Technical Support,Customer Service,60
+Product Support,Customer Service,59
+Technical Support,IT Support,57
+Customer Service,Product Support,51
+Product Support,IT Support,38
+IT Support,Product Support,31

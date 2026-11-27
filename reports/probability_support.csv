@@ -1,0 +1,6 @@
+model,probability_support,calibration
+Dummy,predict_proba (class priors only),no calibration needed - baseline
+NaiveBayes,predict_proba,"has probabilities but they are usually over-confident; check ECE, calibrate"
+LogReg,predict_proba,usually the best-calibrated raw model; still check ECE
+LogReg_balanced,predict_proba,"class_weight shifts probabilities toward small classes; check ECE, calibrate"
+LinearSVC,decision_function only,NO predict_proba: must go through CalibratedClassifierCV
